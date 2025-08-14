@@ -27,10 +27,10 @@ const About = () => {
                     predictive analytics, statistical modeling, and cloud-based machine learning solutions.
                   </p>
                   <p>
-                    Having worked across multiple industries and business domains, I bring a unique 
-                    perspective to data challenges. I specialize in developing end-to-end ML pipelines, 
-                    from data preprocessing to model deployment and monitoring, consistently delivering 
-                    solutions that drive measurable business impact.
+                    Having worked in diverse domains including financial services, healthcare, and 
+                    operational analytics, I bring a unique perspective to data challenges. I specialize 
+                    in developing end-to-end ML pipelines, from data preprocessing to model deployment 
+                    and monitoring.
                   </p>
                   <p>
                     My approach combines technical expertise with business acumen, ensuring that 
@@ -83,8 +83,8 @@ const About = () => {
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Continuous Learning & Mentorship</h4>
-                      <p className="text-sm">Staying current with emerging technologies while working as a freelance mentor, helping students master data science concepts and practical applications</p>
+                      <h4 className="font-semibold text-foreground">Continuous Learning</h4>
+                      <p className="text-sm">Staying current with emerging technologies and methodologies in the rapidly evolving field</p>
                     </div>
                   </div>
                 </div>
@@ -108,10 +108,9 @@ const About = () => {
                   <h3 className="text-2xl font-semibold text-accent">What Drives Me</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  Creating scalable, data-driven solutions that deliver measurable business value while 
-                  advancing the field through knowledge sharing and mentorship. I'm committed to bridging 
-                  the gap between complex algorithms and practical business applications, ensuring every 
-                  project contributes to organizational growth and industry best practices.
+                  The intersection of technology and human impact. I'm passionate about using data science 
+                  to solve meaningful problems, whether it's improving healthcare outcomes, detecting fraud, 
+                  or optimizing business operations for better customer experiences.
                 </p>
               </div>
             </div>
