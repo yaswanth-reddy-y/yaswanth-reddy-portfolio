@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Mail } from "lucide-react";
-import profileImage from "@/assets/yaswanth-profile.jpg";
+import profileImage from "/lovable-uploads/62338680-b14b-4332-98db-48f93fd56d24.png";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -40,7 +40,7 @@ const Hero = () => {
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Transforming complex data into actionable insights with 3+ years of experience 
               in predictive modeling, statistical analysis, and cloud-based ML solutions across 
-              financial, healthcare, and operational domains.
+              diverse industries and business domains.
             </p>
 
             {/* Key Highlights */}
