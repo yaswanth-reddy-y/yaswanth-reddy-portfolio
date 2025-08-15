@@ -14,7 +14,7 @@ const Portfolio = () => {
         { label: "Data Points", value: "17K+" }
       ],
       icon: TrendingUp,
-      github: "https://github.com/yaswanth-reddy-yarrabandla/job-posting-classifier",
+      github: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting",
       demo: "#",
       image: "bg-gradient-to-br from-blue-500/20 to-purple-600/20"
     },
@@ -29,7 +29,7 @@ const Portfolio = () => {
         { label: "Recall", value: "88%" }
       ],
       icon: Shield,
-      github: "https://github.com/yaswanth-reddy-yarrabandla/fraud-detection",
+      github: "https://github.com/yaswanth-reddy-yarrabandla/Credit-Card-Fraud-Detection",
       demo: "#",
       image: "bg-gradient-to-br from-red-500/20 to-orange-600/20"
     },
@@ -44,7 +44,7 @@ const Portfolio = () => {
         { label: "Training Images", value: "12K+" }
       ],
       icon: Leaf,
-      github: "https://github.com/yaswanth-reddy-yarrabandla/plant-pathology-cnn",
+      github: "https://github.com/yaswanth-reddy-yarrabandla/Plant-pathology-analysis-using-CNN",
       demo: "#",
       image: "bg-gradient-to-br from-green-500/20 to-emerald-600/20"
     }
