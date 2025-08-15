@@ -119,13 +119,17 @@ const Portfolio = () => {
 
                       {/* Action Buttons */}
                       <div className="flex flex-col sm:flex-row gap-3 pt-4">
-                        <Button variant="hero" className="flex-1 sm:flex-initial">
-                          <Github className="mr-2 h-4 w-4" />
-                          View Code
+                        <Button variant="hero" className="flex-1 sm:flex-initial" asChild>
+                          <a href={project.github} target="_blank" rel="noopener noreferrer">
+                            <Github className="mr-2 h-4 w-4" />
+                            View Code
+                          </a>
                         </Button>
-                        <Button variant="glass" className="flex-1 sm:flex-initial">
-                          <ExternalLink className="mr-2 h-4 w-4" />
-                          Live Demo
+                        <Button variant="glass" className="flex-1 sm:flex-initial" asChild>
+                          <a href={project.demo} target="_blank" rel="noopener noreferrer">
+                            <ExternalLink className="mr-2 h-4 w-4" />
+                            Live Demo
+                          </a>
                         </Button>
                       </div>
                     </div>
