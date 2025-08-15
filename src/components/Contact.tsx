@@ -33,10 +33,10 @@ const Contact = () => {
         'service_fuqddys',
         'template_po72xnw',
         {
-          user_name: formData.name,
-          user_email: formData.email,
-          user_subject: formData.subject,
-          user_message: formData.message,
+          name: formData.name,
+          email: formData.email,
+          subject: formData.subject,
+          message: formData.message,
           to_name: 'Yaswanth',
         },
         'EH8qSo4ouEESZuDQI'
@@ -44,7 +44,7 @@ const Contact = () => {
 
       toast({
         title: "Message sent successfully!",
-        description: "Thank you for reaching out. I'll get back to you within 24 hours.",
+        description: "Thank you for reaching out. I'll get back to you within 1-2 hours.",
       });
 
       // Reset form

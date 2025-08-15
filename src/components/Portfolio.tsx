@@ -15,8 +15,8 @@ const Portfolio = () => {
       ],
       icon: TrendingUp,
       github: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting",
-      demo: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting/blob/main/app.ipynb",
-      image: "/lovable-uploads/f9d38eca-429d-4082-b967-e6c3765926f6.png"
+      demo: "#",
+      image: "bg-gradient-to-br from-blue-500/20 to-purple-600/20"
     },
     {
       title: "Credit Card Fraud Detection",
@@ -29,9 +29,9 @@ const Portfolio = () => {
         { label: "Recall", value: "88%" }
       ],
       icon: Shield,
-      github: "https://github.com/yaswanth-reddy-yarrabandla/Credit-Card-Fraud-Detection",
-      demo: "https://github.com/yaswanth-reddy-yarrabandla/Credit-Card-Fraud-Detection/blob/main/ML%20proj.ipynb",
-      image: "/lovable-uploads/376692a9-8ee5-40e9-b914-63765d2e4976.png"
+      github: "https://github.com/yaswanth-reddy-yarrabandla/fraud-detection",
+      demo: "#",
+      image: "bg-gradient-to-br from-red-500/20 to-orange-600/20"
     },
     {
       title: "Plant Pathology Analysis Using CNN",
@@ -44,9 +44,9 @@ const Portfolio = () => {
         { label: "Training Images", value: "12K+" }
       ],
       icon: Leaf,
-      github: "https://github.com/yaswanth-reddy-yarrabandla/Plant-pathology-analysis-using-CNN",
-      demo: "https://github.com/yaswanth-reddy-yarrabandla/Plant-pathology-analysis-using-CNN/blob/main/csc578_group14.ipynb",
-      image: "/lovable-uploads/994ef771-b183-4220-aaac-4e692712d3a2.png"
+      github: "https://github.com/yaswanth-reddy-yarrabandla/plant-pathology-cnn",
+      demo: "#",
+      image: "bg-gradient-to-br from-green-500/20 to-emerald-600/20"
     }
   ];
 
@@ -78,7 +78,7 @@ const Portfolio = () => {
                   <div className={`flex flex-col lg:flex-row ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''} gap-8 items-center`}>
                     {/* Project Visual */}
                     <div className="lg:w-1/2">
-                      <div className={`relative h-64 lg:h-80 rounded-xl border border-border/50 flex items-center justify-center overflow-hidden group`} style={{ backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                      <div className={`relative h-64 lg:h-80 rounded-xl ${project.image} border border-border/50 flex items-center justify-center overflow-hidden group`}>
                         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
                         <IconComponent className="h-24 w-24 text-accent group-hover:scale-110 transition-transform duration-300 relative z-10" />
                         <div className="absolute bottom-4 left-4 right-4 space-y-2 z-10">
