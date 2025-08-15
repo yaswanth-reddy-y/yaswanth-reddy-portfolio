@@ -15,7 +15,7 @@ const Portfolio = () => {
       ],
       icon: TrendingUp,
       github: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting",
-      demo: "#",
+      demo: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting/blob/main/app.ipynb",
       image: "/lovable-uploads/f9d38eca-429d-4082-b967-e6c3765926f6.png"
     },
     {
@@ -30,7 +30,7 @@ const Portfolio = () => {
       ],
       icon: Shield,
       github: "https://github.com/yaswanth-reddy-yarrabandla/Credit-Card-Fraud-Detection",
-      demo: "#",
+      demo: "https://github.com/yaswanth-reddy-yarrabandla/Credit-Card-Fraud-Detection/blob/main/ML%20proj.ipynb",
       image: "/lovable-uploads/376692a9-8ee5-40e9-b914-63765d2e4976.png"
     },
     {
@@ -45,7 +45,7 @@ const Portfolio = () => {
       ],
       icon: Leaf,
       github: "https://github.com/yaswanth-reddy-yarrabandla/Plant-pathology-analysis-using-CNN",
-      demo: "#",
+      demo: "https://github.com/yaswanth-reddy-yarrabandla/Plant-pathology-analysis-using-CNN/blob/main/csc578_group14.ipynb",
       image: "/lovable-uploads/994ef771-b183-4220-aaac-4e692712d3a2.png"
     }
   ];
