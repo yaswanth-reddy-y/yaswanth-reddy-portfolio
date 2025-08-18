@@ -16,7 +16,7 @@ const Portfolio = () => {
       icon: TrendingUp,
       github: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting",
       demo: "#",
-      image: "bg-gradient-to-br from-blue-500/20 to-purple-600/20"
+      image: "/real-fake-job-project.png"
     },
     {
       title: "Credit Card Fraud Detection",
@@ -31,7 +31,7 @@ const Portfolio = () => {
       icon: Shield,
       github: "https://github.com/yaswanth-reddy-yarrabandla/fraud-detection",
       demo: "#",
-      image: "bg-gradient-to-br from-red-500/20 to-orange-600/20"
+      image: "/credit-card-fraud-project.png"
     },
     {
       title: "Plant Pathology Analysis Using CNN",
@@ -46,7 +46,7 @@ const Portfolio = () => {
       icon: Leaf,
       github: "https://github.com/yaswanth-reddy-yarrabandla/plant-pathology-cnn",
       demo: "#",
-      image: "bg-gradient-to-br from-green-500/20 to-emerald-600/20"
+      image: "/plant-pathology-project.png"
     }
   ];
 
@@ -78,7 +78,8 @@ const Portfolio = () => {
                   <div className={`flex flex-col lg:flex-row ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''} gap-8 items-center`}>
                     {/* Project Visual */}
                     <div className="lg:w-1/2">
-                      <div className={`relative h-64 lg:h-80 rounded-xl ${project.image} border border-border/50 flex items-center justify-center overflow-hidden group`}>
+                      <div className="relative h-64 lg:h-80 rounded-xl border border-border/50 flex items-center justify-center overflow-hidden group"
+                           style={{ backgroundImage: `url(${project.image})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                         <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />
                         <IconComponent className="h-24 w-24 text-accent group-hover:scale-110 transition-transform duration-300 relative z-10" />
                         <div className="absolute bottom-4 left-4 right-4 space-y-2 z-10">
