@@ -16,7 +16,7 @@ const Portfolio = () => {
       icon: TrendingUp,
       github: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting",
       demo: "#",
-      image: "/lovable-uploads/1a45ab01-6809-4b44-80be-50a789627605.png"
+      image: "/real-fake-job-project.png"
     },
     {
       title: "Credit Card Fraud Detection",
@@ -31,7 +31,7 @@ const Portfolio = () => {
       icon: Shield,
       github: "https://github.com/yaswanth-reddy-yarrabandla/fraud-detection",
       demo: "#",
-      image: "/lovable-uploads/67a294ec-6e93-4305-b717-26e9b03d3f21.png"
+      image: "/credit-card-fraud-project.png"
     },
     {
       title: "Plant Pathology Analysis Using CNN",
@@ -46,7 +46,7 @@ const Portfolio = () => {
       icon: Leaf,
       github: "https://github.com/yaswanth-reddy-yarrabandla/plant-pathology-cnn",
       demo: "#",
-      image: "/lovable-uploads/cd1ed3a5-9b9e-48dc-9594-61335d7fe9da.png"
+      image: "/plant-pathology-project.png"
     }
   ];
 
