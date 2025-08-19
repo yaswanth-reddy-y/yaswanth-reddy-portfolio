@@ -11,7 +11,7 @@ const Portfolio = () => {
       metrics: [
         { label: "AUC Score", value: "0.92" },
         { label: "Accuracy", value: "89%" },
-        { label: "Data Points", value: "17K+" }
+        { label: "Data Points", value: "17M" }
       ],
       icon: TrendingUp,
       github: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting",
