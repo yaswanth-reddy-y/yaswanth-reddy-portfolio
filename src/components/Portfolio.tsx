@@ -41,7 +41,7 @@ const Portfolio = () => {
       metrics: [
         { label: "Validation Accuracy", value: "88.22%" },
         { label: "F1-Score", value: "0.87" },
-        { label: "Training Images", value: "12K+" }
+        { label: "Training Images", value: "1.1M" }
       ],
       icon: Leaf,
       github: "https://github.com/yaswanth-reddy-yarrabandla/plant-pathology-cnn",
