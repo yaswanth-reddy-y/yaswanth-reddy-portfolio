@@ -54,7 +54,7 @@ const Hero = () => {
                 <div className="text-sm text-muted-foreground">Model Accuracy</div>
               </div>
               <div className="card-glass p-6 rounded-xl">
-                <div className="text-3xl font-bold gradient-text">75+</div>
+                <div className="text-3xl font-bold gradient-text">100+</div>
                 <div className="text-sm text-muted-foreground">Students Mentored</div>
               </div>
             </div>
