@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download, Mail } from "lucide-react";
+import { ArrowDown, Download, Mail, Linkedin, Github } from "lucide-react";
 import profileImage from "/lovable-uploads/62338680-b14b-4332-98db-48f93fd56d24.png";
 
 const Hero = () => {
@@ -102,6 +102,24 @@ const Hero = () => {
               >
                 <Download className="mr-2 h-4 w-4" />
                 Download CV
+              </Button>
+              <Button 
+                variant="glass" 
+                size="lg"
+                onClick={() => window.open("https://www.linkedin.com/in/yaswanth-reddy-yarrabandla", "_blank")}
+                className="px-8"
+              >
+                <Linkedin className="mr-2 h-4 w-4" />
+                LinkedIn
+              </Button>
+              <Button 
+                variant="outline" 
+                size="lg"
+                onClick={() => window.open("https://github.com/yaswanthreddy", "_blank")}
+                className="px-8 border-white/20 text-white hover:bg-white/10"
+              >
+                <Github className="mr-2 h-4 w-4" />
+                GitHub
               </Button>
             </div>
           </div>
