@@ -115,7 +115,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.open("https://github.com/yaswanthreddy", "_blank")}
+                onClick={() => window.open("https://github.com/yaswanth-reddy-yarrabandla/yaswanth-reddy-yarrabandla", "_blank")}
                 className="px-8 border-white/20 text-white hover:bg-white/10"
               >
                 <Github className="mr-2 h-4 w-4" />
