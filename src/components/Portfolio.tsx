@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ExternalLink, Github, TrendingUp, Shield, Leaf } from "lucide-react";
+import { ExternalLink, Github, TrendingUp, Shield } from "lucide-react";
 
 const Portfolio = () => {
   const projects = [
@@ -32,21 +32,6 @@ const Portfolio = () => {
       github: "https://github.com/yaswanth-reddy-yarrabandla/fraud-detection",
       demo: "#",
       image: "/lovable-uploads/32eaf5d3-11c0-4555-a4c6-9c97379500bb.png"
-    },
-    {
-      title: "Plant Pathology Analysis Using CNN",
-      description: "Convolutional neural network for early detection of plant diseases using computer vision and image classification.",
-      longDescription: "Implemented CNN architecture with data augmentation techniques for accurate plant disease classification from leaf images.",
-      technologies: ["Python", "TensorFlow", "CNN", "Computer Vision", "Data Augmentation", "Image Processing"],
-      metrics: [
-        { label: "Validation Accuracy", value: "88.22%" },
-        { label: "F1-Score", value: "0.87" },
-        { label: "Training Images", value: "1.1M" }
-      ],
-      icon: Leaf,
-      github: "https://github.com/yaswanth-reddy-yarrabandla/plant-pathology-cnn",
-      demo: "#",
-      image: "/lovable-uploads/8bd78486-592f-4fad-a0ff-3b20ba57b51c.png"
     }
   ];
 
