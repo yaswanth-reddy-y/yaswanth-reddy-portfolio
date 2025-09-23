@@ -4,46 +4,49 @@ const Experience = () => {
   const experiences = [
     {
       title: "Data Scientist",
-      company: "Chicago Education Advocacy Cooperative",
-      period: "Mar 2025 – Present",
-      location: "Chicago, IL",
-      description: "Leading advanced analytics initiatives to improve educational outcomes through data-driven insights.",
+      company: "Northern Trust",
+      period: "Jan 2025 – Present",
+      location: "USA",
+      description: "Architecting integrated behavioral bias detection and liquidity stress simulation systems using advanced ML technologies.",
       achievements: [
-        "Developed LSTM, ARIMA, and Random Forest models for agent performance prediction",
-        "Built real-time dashboards using Azure ML for business trend analysis",
-        "Implemented predictive analytics solutions improving reporting efficiency by 30%",
-        "Collaborated with stakeholders to translate business requirements into technical solutions"
+        "Architected behavioral bias detection system using Azure ML, PyTorch, CNNs, GANs, reducing portfolio risk exposure by 23%",
+        "Engineered deep learning models (LSTM, Random Forest, Transformers) improving predictive accuracy by 28%",
+        "Orchestrated end-to-end NLP workflows using LangChain and Hugging Face for sentiment analysis",
+        "Designed interactive dashboards with Azure ML and Plotly/Dash for real-time portfolio insights",
+        "Deployed optimized ML pipelines using Azure ML and Docker with seamless production integration"
       ],
-      technologies: ["Python", "Azure ML", "LSTM", "ARIMA", "Random Forest", "Power BI"]
+      technologies: ["Azure ML", "Python", "PyTorch", "CNNs", "GANs", "LangChain", "Hugging Face", "LSTM", "Random Forest", "Transformers", "GraphQL", "Plotly", "Docker", "JIRA"]
     },
     {
-      title: "Teaching Assistant – Data Science",
+      title: "Teaching Assistant – Data Science & ML",
       company: "DePaul University",
       period: "Aug 2024 – Dec 2024",
-      location: "Chicago, IL",
-      description: "Mentored students in advanced data science concepts and machine learning implementations.",
+      location: "USA",
+      description: "Facilitated development of real-world predictive analytics platforms and guided students in end-to-end ML pipeline development.",
       achievements: [
-        "Guided 75+ students through complex machine learning pipelines and model optimization",
-        "Developed curriculum materials for logistic regression and Random Forest algorithms",
-        "Led hands-on workshops on churn prediction modeling techniques",
-        "Achieved 95% student satisfaction rate in course evaluations"
+        "Guided students in building ML pipelines using Python, Scikit-learn, and Azure ML, improving project success rates by 30%",
+        "Directed collaborative projects applying Random Forest, XGBoost, and Logistic Regression, boosting model accuracy by 25%",
+        "Coached students on creating interactive dashboards in Power BI and Matplotlib for actionable insights",
+        "Designed advanced statistical analysis workflows including hypothesis testing and A/B testing",
+        "Improved student outcomes through predictive modeling techniques and optimized deployment strategies"
       ],
-      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Jupyter", "Git"]
+      technologies: ["Python", "Scikit-learn", "Azure ML", "Random Forest", "XGBoost", "Logistic Regression", "Power BI", "Matplotlib", "Statistical Analysis"]
     },
     {
       title: "Data Science Engineer",
-      company: "PortalOne Team",
-      period: "Aug 2021 – Nov 2022",
-      location: "Remote",
-      description: "Engineered data solutions and recommendation systems for user behavior analysis.",
+      company: "Hexaware Techno",
+      period: "Dec 2020 – Nov 2022",
+      location: "USA",
+      description: "Engineered intelligent user analytics and recommendation platforms using cloud technologies and advanced data science techniques.",
       achievements: [
-        "Analyzed user behavior patterns using advanced statistical methods",
-        "Built recommendation systems improving user engagement by 25%",
-        "Optimized ETL pipelines reducing data processing time by 40%",
-        "Developed predictive churn models with 90%+ accuracy",
-        "Collaborated with engineering teams for seamless model deployment"
+        "Engineered user analytics platform using Python, Pandas, and AWS, enhancing user engagement by 32%",
+        "Designed recommendation engine using collaborative filtering, improving user satisfaction scores by 27%",
+        "Architected real-time ETL pipelines using AWS Glue, S3, and Lambda for large-scale data processing",
+        "Developed predictive churn models enabling proactive user retention strategies",
+        "Enhanced decision-making through interactive dashboards in Tableau and Power BI",
+        "Streamlined ML pipelines using AWS SageMaker for improved predictive accuracy"
       ],
-      technologies: ["Python", "SQL", "AWS", "ETL", "Recommendation Systems", "Statistical Analysis"]
+      technologies: ["Python", "Pandas", "AWS", "AWS Glue", "S3", "Lambda", "Tableau", "Power BI", "AWS SageMaker", "Collaborative Filtering", "ETL"]
     }
   ];
 
