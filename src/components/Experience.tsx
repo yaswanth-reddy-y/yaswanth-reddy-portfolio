@@ -9,11 +9,12 @@ const Experience = () => {
       location: "USA",
       description: "Architecting integrated behavioral bias detection and liquidity stress simulation systems using advanced ML technologies.",
       achievements: [
-        "Architected behavioral bias detection system using Azure ML, PyTorch, CNNs, GANs, reducing portfolio risk exposure by 23%",
-        "Engineered deep learning models (LSTM, Random Forest, Transformers) improving predictive accuracy by 28%",
-        "Orchestrated end-to-end NLP workflows using LangChain and Hugging Face for sentiment analysis",
-        "Designed interactive dashboards with Azure ML and Plotly/Dash for real-time portfolio insights",
-        "Deployed optimized ML pipelines using Azure ML and Docker with seamless production integration"
+        "Architected and developed an integrated behavioral bias detection and liquidity stress simulation system by leveraging Azure Machine Learning, Python, PyTorch, CNNs, GANs, LangChain, and Hugging Face transformers to analyze structured and unstructured financial data, enabling portfolio managers to identify decision-making patterns and act proactively, reducing portfolio risk exposure by 23%.",
+        "Engineered and optimized deep learning models including LSTM, Random Forest, and Transformer architectures within Azure Machine Learning pipelines, predicting market-driven stress scenarios and behavioral tendencies with higher precision and improving overall risk insights for investment decisions, increasing predictive accuracy by 28%.",
+        "Orchestrated end-to-end NLP workflows using LangChain and Hugging Face, extracting sentiment, uncertainty, and decision-making cues from portfolio manager notes while integrating GraphQL APIs for seamless access to real-time holdings and liquidity data across financial products.",
+        "Designed and deployed interactive dashboards with Azure Machine Learning and Plotly/Dash, delivering real-time insights into portfolio biases and liquidity forecasts, which improved reporting efficiency and enhanced decision-making timelines.",
+        "Reduced liquidity risk exposure by leveraging predictive analytics to simulate high-pressure redemption scenarios and forecast fund performance, aligning the simulation outputs with business objectives to support proactive financial risk management.",
+        "Deployed optimized machine learning pipelines using Azure ML and Docker while managing model lifecycle with JIRA and collaborating closely with cross-functional teams to ensure seamless integration into production systems and front-end decision tools."
       ],
       technologies: ["Azure ML", "Python", "PyTorch", "CNNs", "GANs", "LangChain", "Hugging Face", "LSTM", "Random Forest", "Transformers", "GraphQL", "Plotly", "Docker", "JIRA"]
     },
@@ -24,11 +25,11 @@ const Experience = () => {
       location: "USA",
       description: "Facilitated development of real-world predictive analytics platforms and guided students in end-to-end ML pipeline development.",
       achievements: [
-        "Guided students in building ML pipelines using Python, Scikit-learn, and Azure ML, improving project success rates by 30%",
-        "Directed collaborative projects applying Random Forest, XGBoost, and Logistic Regression, boosting model accuracy by 25%",
-        "Coached students on creating interactive dashboards in Power BI and Matplotlib for actionable insights",
-        "Designed advanced statistical analysis workflows including hypothesis testing and A/B testing",
-        "Improved student outcomes through predictive modeling techniques and optimized deployment strategies"
+        "Facilitated the development of a real-world predictive analytics platform by guiding students in building end-to-end ML pipelines involving data preprocessing, feature engineering, model training, and deployment using Python, Scikit-learn, and Azure Machine Learning, enabling accurate business insights and improving project success rates by 30%.",
+        "Directed collaborative student projects focused on classification and regression modeling by applying Random Forest, XGBoost, and Logistic Regression techniques on real datasets, improving model accuracy and interpretability through optimized hyperparameters and advanced evaluation metrics, boosting overall model accuracy by 25%.",
+        "Enabled effective data visualization and reporting by coaching students on creating interactive dashboards in Power BI and Matplotlib, integrating KPIs, drill-downs, and trend forecasts to support actionable insights and improve reporting efficiency significantly.",
+        "Designed and executed advanced statistical analysis workflows involving hypothesis testing, regression analysis, and A/B testing to strengthen applied data science knowledge, empowering students to interpret results and validate machine learning models effectively.",
+        "Improved student project outcomes by implementing predictive modeling techniques and optimizing deployment strategies, resulting in significant enhancements in decision-making efficiency and strengthening the overall understanding of cloud-based ML applications on Azure."
       ],
       technologies: ["Python", "Scikit-learn", "Azure ML", "Random Forest", "XGBoost", "Logistic Regression", "Power BI", "Matplotlib", "Statistical Analysis"]
     },
@@ -39,12 +40,13 @@ const Experience = () => {
       location: "USA",
       description: "Engineered intelligent user analytics and recommendation platforms using cloud technologies and advanced data science techniques.",
       achievements: [
-        "Engineered user analytics platform using Python, Pandas, and AWS, enhancing user engagement by 32%",
-        "Designed recommendation engine using collaborative filtering, improving user satisfaction scores by 27%",
-        "Architected real-time ETL pipelines using AWS Glue, S3, and Lambda for large-scale data processing",
-        "Developed predictive churn models enabling proactive user retention strategies",
-        "Enhanced decision-making through interactive dashboards in Tableau and Power BI",
-        "Streamlined ML pipelines using AWS SageMaker for improved predictive accuracy"
+        "Engineered an intelligent user analytics and recommendation platform by leveraging Python, Pandas, and AWS cloud services, enabling personalized content delivery and enhancing overall user engagement by 32% through optimized feature targeting.",
+        "Designed and implemented a recommendation engine using collaborative filtering techniques and predictive modeling approaches to personalize the user journey, significantly improving content discovery and increasing user satisfaction scores by 27%.",
+        "Architected and optimized real-time ETL pipelines using AWS Glue, S3, and Lambda, enabling seamless ingestion, transformation, and processing of large-scale datasets, which enhanced scalability and system performance under heavy traffic.",
+        "Developed and deployed predictive churn models using classification algorithms and advanced data science techniques, empowering the business to proactively identify at-risk users and implement retention strategies effectively.",
+        "Automated data workflows and collaborated with cross-functional engineering teams to integrate machine learning models into production systems, ensuring smooth deployment, robust monitoring, and minimal downtime.",
+        "Enhanced decision-making by developing interactive dashboards and real-time data visualizations in Tableau and Power BI, providing stakeholders with actionable insights into user behavior, platform usage trends, and feature adoption metrics.",
+        "Streamlined cloud-based ML pipelines by orchestrating model training, hyperparameter tuning, and deployment within AWS SageMaker, improving predictive accuracy and aligning analytical outcomes with key business objectives."
       ],
       technologies: ["Python", "Pandas", "AWS", "AWS Glue", "S3", "Lambda", "Tableau", "Power BI", "AWS SageMaker", "Collaborative Filtering", "ETL"]
     }
