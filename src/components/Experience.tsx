@@ -7,7 +7,6 @@ const Experience = () => {
       company: "Northern Trust",
       period: "Jan 2025 – Present",
       location: "USA",
-      description: "Architecting integrated behavioral bias detection and liquidity stress simulation systems using advanced ML technologies.",
       achievements: [
         "Architected and developed an integrated behavioral bias detection and liquidity stress simulation system by leveraging Azure Machine Learning, Python, PyTorch, CNNs, GANs, LangChain, and Hugging Face transformers to analyze structured and unstructured financial data, enabling portfolio managers to identify decision-making patterns and act proactively, reducing portfolio risk exposure by 23%.",
         "Engineered and optimized deep learning models including LSTM, Random Forest, and Transformer architectures within Azure Machine Learning pipelines, predicting market-driven stress scenarios and behavioral tendencies with higher precision and improving overall risk insights for investment decisions, increasing predictive accuracy by 28%.",
@@ -23,7 +22,6 @@ const Experience = () => {
       company: "DePaul University",
       period: "Aug 2024 – Dec 2024",
       location: "USA",
-      description: "Facilitated development of real-world predictive analytics platforms and guided students in end-to-end ML pipeline development.",
       achievements: [
         "Facilitated the development of a real-world predictive analytics platform by guiding students in building end-to-end ML pipelines involving data preprocessing, feature engineering, model training, and deployment using Python, Scikit-learn, and Azure Machine Learning, enabling accurate business insights and improving project success rates by 30%.",
         "Directed collaborative student projects focused on classification and regression modeling by applying Random Forest, XGBoost, and Logistic Regression techniques on real datasets, improving model accuracy and interpretability through optimized hyperparameters and advanced evaluation metrics, boosting overall model accuracy by 25%.",
@@ -38,7 +36,6 @@ const Experience = () => {
       company: "Hexaware Techno",
       period: "Dec 2020 – Nov 2022",
       location: "USA",
-      description: "Engineered intelligent user analytics and recommendation platforms using cloud technologies and advanced data science techniques.",
       achievements: [
         "Engineered an intelligent user analytics and recommendation platform by leveraging Python, Pandas, and AWS cloud services, enabling personalized content delivery and enhancing overall user engagement by 32% through optimized feature targeting.",
         "Designed and implemented a recommendation engine using collaborative filtering techniques and predictive modeling approaches to personalize the user journey, significantly improving content discovery and increasing user satisfaction scores by 27%.",
@@ -90,8 +87,6 @@ const Experience = () => {
 
                   {/* Right Column - Details */}
                   <div className="lg:w-2/3 space-y-6">
-                    <p className="text-muted-foreground">{exp.description}</p>
-                    
                     {/* Key Achievements */}
                     <div>
                       <h5 className="font-semibold text-foreground mb-3">Key Achievements:</h5>
