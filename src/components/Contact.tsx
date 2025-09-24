@@ -76,8 +76,8 @@ const Contact = () => {
     {
       icon: Github,
       label: "GitHub",
-      value: "yaswanth-reddy-yarrabandla",
-      href: "https://github.com/yaswanth-reddy-yarrabandla"
+      value: "yaswanth-reddy-y",
+      href: "https://github.com/yaswanth-reddy-y/yaswanth-reddy"
     }
   ];
 

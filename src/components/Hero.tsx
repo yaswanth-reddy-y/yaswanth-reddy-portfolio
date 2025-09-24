@@ -97,7 +97,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.open("https://1drv.ms/w/c/81c6291fdf7cccf8/EZUJudqKBfpHg0J8myl8_lYBVUFhOARkfmf3c6ZkezttFA?e=awz8jS", "_blank")}
+                onClick={() => window.open("https://1drv.ms/b/c/81c6291fdf7cccf8/EZM-ZH538mhHj7onhHEGy4UB5-QQwftUNQk18T9CfqNA2Q?e=G3j3LY", "_blank")}
                 className="px-8 border-white/20 text-white hover:bg-white/10"
               >
                 <Download className="mr-2 h-4 w-4" />
@@ -106,7 +106,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.open("https://github.com/yaswanth-reddy-yarrabandla/yaswanth-reddy-yarrabandla", "_blank")}
+                onClick={() => window.open("https://github.com/yaswanth-reddy-y/yaswanth-reddy", "_blank")}
                 className="px-8 border-white/20 text-white hover:bg-white/10"
               >
                 <Github className="mr-2 h-4 w-4" />

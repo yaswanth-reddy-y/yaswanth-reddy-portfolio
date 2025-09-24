@@ -11,7 +11,7 @@ const Footer = () => {
     },
     {
       icon: Github,
-      href: "https://github.com/yaswanth-reddy-yarrabandla",
+      href: "https://github.com/yaswanth-reddy-y/yaswanth-reddy",
       label: "GitHub"
     }
   ];
