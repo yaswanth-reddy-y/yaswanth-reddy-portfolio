@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github, Heart } from "lucide-react";
+import { Mail, Github, Heart } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -8,11 +8,6 @@ const Footer = () => {
       icon: Mail,
       href: "mailto:yaswanthr2001@gmail.com",
       label: "Email"
-    },
-    {
-      icon: Linkedin,
-      href: "https://www.linkedin.com/in/yaswanth-reddy-yarrabandla/",
-      label: "LinkedIn"
     },
     {
       icon: Github,
