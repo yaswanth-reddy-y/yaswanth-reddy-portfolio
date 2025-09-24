@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Mail, Linkedin, Github } from "lucide-react";
-import profileImage from "/lovable-uploads/62338680-b14b-4332-98db-48f93fd56d24.png";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -14,32 +13,6 @@ const Hero = () => {
     <section id="home" className="relative min-h-screen flex items-center justify-center pt-16 sparkle-bg">
       <div className="container mx-auto px-4">
         <div className="text-center space-y-8">
-          {/* Professional Profile Image */}
-          <div className="relative inline-block group">
-            <div className="relative">
-              {/* Outer glow ring */}
-              <div className="absolute inset-0 rounded-full bg-gradient-to-r from-primary via-accent to-primary p-1 animate-pulse">
-                <div className="w-full h-full rounded-full bg-background"></div>
-              </div>
-              
-              {/* Main profile image */}
-              <div className="relative w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden border-4 border-background shadow-2xl group-hover:shadow-glow transition-all duration-300">
-                <img
-                  src={profileImage}
-                  alt="Yaswanth Reddy Yarrabandla - Data Scientist & ML Engineer"
-                  className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
-                />
-                
-                {/* Professional overlay gradient */}
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/10 via-transparent to-accent/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-              </div>
-              
-              {/* Professional status indicator */}
-              <div className="absolute bottom-4 right-4 w-6 h-6 bg-green-500 rounded-full border-4 border-background shadow-lg animate-pulse">
-                <div className="w-full h-full bg-gradient-to-r from-green-400 to-green-600 rounded-full"></div>
-              </div>
-            </div>
-          </div>
 
           {/* Main Content */}
           <div className="space-y-6 max-w-4xl mx-auto">
