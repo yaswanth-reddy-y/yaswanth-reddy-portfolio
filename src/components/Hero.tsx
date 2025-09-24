@@ -97,7 +97,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.open("https://1drv.ms/w/c/81c6291fdf7cccf8/EfcxZ6p5bLpMjlZx2jRwpmsB5fApYz3p7Ys795iiBC_lsw?e=IN6hCs", "_blank")}
+                onClick={() => window.open("https://1drv.ms/w/c/81c6291fdf7cccf8/EZUJudqKBfpHg0J8myl8_lYBVUFhOARkfmf3c6ZkezttFA?e=awz8jS", "_blank")}
                 className="px-8 border-white/20 text-white hover:bg-white/10"
               >
                 <Download className="mr-2 h-4 w-4" />

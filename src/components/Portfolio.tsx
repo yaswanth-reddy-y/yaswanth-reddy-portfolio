@@ -17,6 +17,21 @@ const Portfolio = () => {
       github: "https://github.com/yaswanth-reddy-yarrabandla/Real-Fake-Job-Posting",
       demo: "#",
       image: "/lovable-uploads/09c61d60-81be-4806-9904-014796a967dc.png"
+    },
+    {
+      title: "Credit Card Fraud Detection",
+      description: "Advanced gradient boosting model achieving 95% accuracy in detecting fraudulent transactions with minimal false positives.",
+      longDescription: "Built an ensemble model using XGBoost and feature engineering to reduce fraud detection misclassifications by 20%.",
+      technologies: ["Python", "XGBoost", "Feature Engineering", "Imbalanced Learning", "ROC Analysis", "Ensemble Methods"],
+      metrics: [
+        { label: "Accuracy", value: "95%" },
+        { label: "Precision", value: "92%" },
+        { label: "Recall", value: "88%" }
+      ],
+      icon: Shield,
+      github: "https://github.com/yaswanth-reddy-yarrabandla/fraud-detection",
+      demo: "#",
+      image: "/lovable-uploads/32eaf5d3-11c0-4555-a4c6-9c97379500bb.png"
     }
   ];
 

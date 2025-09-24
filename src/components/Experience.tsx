@@ -4,48 +4,46 @@ const Experience = () => {
   const experiences = [
     {
       title: "Data Scientist",
-      company: "Northern Trust",
-      period: "Jan 2025 – Present",
-      location: "USA",
+      company: "Chicago Education Advocacy Cooperative",
+      period: "Mar 2025 – Present",
+      location: "Chicago, IL",
+      description: "Leading advanced analytics initiatives to improve educational outcomes through data-driven insights.",
       achievements: [
-        "Architected and developed an integrated behavioral bias detection and liquidity stress simulation system by leveraging Azure Machine Learning, Python, PyTorch, CNNs, GANs, LangChain, and Hugging Face transformers to analyze structured and unstructured financial data, enabling portfolio managers to identify decision-making patterns and act proactively, reducing portfolio risk exposure by 23%.",
-        "Engineered and optimized deep learning models including LSTM, Random Forest, and Transformer architectures within Azure Machine Learning pipelines, predicting market-driven stress scenarios and behavioral tendencies with higher precision and improving overall risk insights for investment decisions, increasing predictive accuracy by 28%.",
-        "Orchestrated end-to-end NLP workflows using LangChain and Hugging Face, extracting sentiment, uncertainty, and decision-making cues from portfolio manager notes while integrating GraphQL APIs for seamless access to real-time holdings and liquidity data across financial products.",
-        "Designed and deployed interactive dashboards with Azure Machine Learning and Plotly/Dash, delivering real-time insights into portfolio biases and liquidity forecasts, which improved reporting efficiency and enhanced decision-making timelines.",
-        "Reduced liquidity risk exposure by leveraging predictive analytics to simulate high-pressure redemption scenarios and forecast fund performance, aligning the simulation outputs with business objectives to support proactive financial risk management.",
-        "Deployed optimized machine learning pipelines using Azure ML and Docker while managing model lifecycle with JIRA and collaborating closely with cross-functional teams to ensure seamless integration into production systems and front-end decision tools."
+        "Developed LSTM, ARIMA, and Random Forest models for agent performance prediction",
+        "Built real-time dashboards using Azure ML for business trend analysis",
+        "Implemented predictive analytics solutions improving reporting efficiency by 30%",
+        "Collaborated with stakeholders to translate business requirements into technical solutions"
       ],
-      technologies: ["Azure ML", "Python", "PyTorch", "CNNs", "GANs", "LangChain", "Hugging Face", "LSTM", "Random Forest", "Transformers", "GraphQL", "Plotly", "Docker", "JIRA"]
+      technologies: ["Python", "Azure ML", "LSTM", "ARIMA", "Random Forest", "Power BI"]
     },
     {
-      title: "Teaching Assistant – Data Science & ML",
+      title: "Teaching Assistant – Data Science",
       company: "DePaul University",
       period: "Aug 2024 – Dec 2024",
-      location: "USA",
+      location: "Chicago, IL",
+      description: "Mentored students in advanced data science concepts and machine learning implementations.",
       achievements: [
-        "Facilitated the development of a real-world predictive analytics platform by guiding students in building end-to-end ML pipelines involving data preprocessing, feature engineering, model training, and deployment using Python, Scikit-learn, and Azure Machine Learning, enabling accurate business insights and improving project success rates by 30%.",
-        "Directed collaborative student projects focused on classification and regression modeling by applying Random Forest, XGBoost, and Logistic Regression techniques on real datasets, improving model accuracy and interpretability through optimized hyperparameters and advanced evaluation metrics, boosting overall model accuracy by 25%.",
-        "Enabled effective data visualization and reporting by coaching students on creating interactive dashboards in Power BI and Matplotlib, integrating KPIs, drill-downs, and trend forecasts to support actionable insights and improve reporting efficiency significantly.",
-        "Designed and executed advanced statistical analysis workflows involving hypothesis testing, regression analysis, and A/B testing to strengthen applied data science knowledge, empowering students to interpret results and validate machine learning models effectively.",
-        "Improved student project outcomes by implementing predictive modeling techniques and optimizing deployment strategies, resulting in significant enhancements in decision-making efficiency and strengthening the overall understanding of cloud-based ML applications on Azure."
+        "Guided 75+ students through complex machine learning pipelines and model optimization",
+        "Developed curriculum materials for logistic regression and Random Forest algorithms",
+        "Led hands-on workshops on churn prediction modeling techniques",
+        "Achieved 95% student satisfaction rate in course evaluations"
       ],
-      technologies: ["Python", "Scikit-learn", "Azure ML", "Random Forest", "XGBoost", "Logistic Regression", "Power BI", "Matplotlib", "Statistical Analysis"]
+      technologies: ["Python", "Scikit-learn", "Pandas", "NumPy", "Jupyter", "Git"]
     },
     {
       title: "Data Science Engineer",
-      company: "Hexaware Techno",
-      period: "Dec 2020 – Nov 2022",
-      location: "USA",
+      company: "PortalOne Team",
+      period: "Aug 2021 – Nov 2022",
+      location: "Remote",
+      description: "Engineered data solutions and recommendation systems for user behavior analysis.",
       achievements: [
-        "Engineered an intelligent user analytics and recommendation platform by leveraging Python, Pandas, and AWS cloud services, enabling personalized content delivery and enhancing overall user engagement by 32% through optimized feature targeting.",
-        "Designed and implemented a recommendation engine using collaborative filtering techniques and predictive modeling approaches to personalize the user journey, significantly improving content discovery and increasing user satisfaction scores by 27%.",
-        "Architected and optimized real-time ETL pipelines using AWS Glue, S3, and Lambda, enabling seamless ingestion, transformation, and processing of large-scale datasets, which enhanced scalability and system performance under heavy traffic.",
-        "Developed and deployed predictive churn models using classification algorithms and advanced data science techniques, empowering the business to proactively identify at-risk users and implement retention strategies effectively.",
-        "Automated data workflows and collaborated with cross-functional engineering teams to integrate machine learning models into production systems, ensuring smooth deployment, robust monitoring, and minimal downtime.",
-        "Enhanced decision-making by developing interactive dashboards and real-time data visualizations in Tableau and Power BI, providing stakeholders with actionable insights into user behavior, platform usage trends, and feature adoption metrics.",
-        "Streamlined cloud-based ML pipelines by orchestrating model training, hyperparameter tuning, and deployment within AWS SageMaker, improving predictive accuracy and aligning analytical outcomes with key business objectives."
+        "Analyzed user behavior patterns using advanced statistical methods",
+        "Built recommendation systems improving user engagement by 25%",
+        "Optimized ETL pipelines reducing data processing time by 40%",
+        "Developed predictive churn models with 90%+ accuracy",
+        "Collaborated with engineering teams for seamless model deployment"
       ],
-      technologies: ["Python", "Pandas", "AWS", "AWS Glue", "S3", "Lambda", "Tableau", "Power BI", "AWS SageMaker", "Collaborative Filtering", "ETL"]
+      technologies: ["Python", "SQL", "AWS", "ETL", "Recommendation Systems", "Statistical Analysis"]
     }
   ];
 
@@ -87,6 +85,8 @@ const Experience = () => {
 
                   {/* Right Column - Details */}
                   <div className="lg:w-2/3 space-y-6">
+                    <p className="text-muted-foreground">{exp.description}</p>
+                    
                     {/* Key Achievements */}
                     <div>
                       <h5 className="font-semibold text-foreground mb-3">Key Achievements:</h5>
