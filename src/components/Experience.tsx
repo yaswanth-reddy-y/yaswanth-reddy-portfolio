@@ -5,7 +5,7 @@ const Experience = () => {
     {
       title: "Data Scientist",
       company: "Chicago Education Advocacy Cooperative",
-      period: "Mar 2025 – Present",
+      period: "Feb 2025 – Present",
       location: "Chicago, IL",
       description: "Leading advanced analytics initiatives to improve educational outcomes through data-driven insights.",
       achievements: [
