@@ -33,8 +33,8 @@ const Experience = () => {
     {
       title: "Data Science Engineer",
       company: "PortalOne Team",
-      period: "Aug 2021 – Nov 2022",
-      location: "Remote",
+      period: "Aug 2020 – Nov 2022",
+      location: "On-site",
       description: "Engineered data solutions and recommendation systems for user behavior analysis.",
       achievements: [
         "Analyzed user behavior patterns using advanced statistical methods",
