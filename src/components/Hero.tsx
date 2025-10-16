@@ -53,9 +53,7 @@ const Hero = () => {
             </h2>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Transforming complex data into actionable insights with 3+ years of experience 
-              in predictive modeling, statistical analysis, and cloud-based ML solutions across 
-              diverse industries and business domains.
+              Turning raw data into powerful stories that drive smarter decisions and lasting impact.
             </p>
 
             {/* Key Highlights */}
@@ -96,7 +94,7 @@ const Hero = () => {
               <Button 
                 variant="outline" 
                 size="lg"
-                onClick={() => window.open("https://1drv.ms/b/c/81c6291fdf7cccf8/EZM-ZH538mhHj7onhHEGy4UB5-QQwftUNQk18T9CfqNA2Q?e=G3j3LY", "_blank")}
+                onClick={() => window.open("https://1drv.ms/b/c/81c6291fdf7cccf8/EdPtw61IygZKuCihMy9NozsBOeQ5rIClDLdwwWEq5S5JWQ?e=xfmJhI", "_blank")}
                 className="px-8 border-white/20 text-white hover:bg-white/10"
               >
                 <Download className="mr-2 h-4 w-4" />
