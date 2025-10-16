@@ -7,7 +7,7 @@ const Experience = () => {
       company: "Northern Trust",
       period: "Jan 2025 – Present",
       location: "USA",
-      description: "Architecting integrated behavioral bias detection and liquidity stress simulation systems using advanced ML and NLP techniques.",
+      description: "Leading development of AI-powered behavioral bias detection and liquidity stress simulation systems to optimize portfolio risk management and investment decision-making.",
       achievements: [
         "Architected behavioral bias detection and liquidity stress simulation system, reducing portfolio risk exposure by 23%",
         "Engineered deep learning models (LSTM, Random Forest, Transformer) improving predictive accuracy by 28%",
@@ -23,7 +23,7 @@ const Experience = () => {
       company: "DePaul University",
       period: "Aug 2024 – Dec 2024",
       location: "USA",
-      description: "Facilitated development of real-world predictive analytics platforms and guided students through end-to-end ML pipelines.",
+      description: "Mentored students in advanced data science and machine learning, guiding hands-on projects from data preprocessing to model deployment on cloud platforms.",
       achievements: [
         "Guided students in building end-to-end ML pipelines improving project success rates by 30%",
         "Directed collaborative projects with Random Forest, XGBoost, and Logistic Regression, boosting model accuracy by 25%",
@@ -38,7 +38,7 @@ const Experience = () => {
       company: "Hexaware Techno",
       period: "Dec 2020 – Nov 2022",
       location: "USA",
-      description: "Engineered intelligent user analytics and recommendation platforms using AWS cloud services and advanced ML techniques.",
+      description: "Built scalable user analytics and recommendation systems on AWS, delivering personalized experiences and actionable insights for business growth.",
       achievements: [
         "Engineered user analytics and recommendation platform enhancing user engagement by 32%",
         "Designed recommendation engine using collaborative filtering, increasing user satisfaction by 27%",
