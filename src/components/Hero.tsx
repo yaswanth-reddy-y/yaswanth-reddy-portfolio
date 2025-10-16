@@ -59,18 +59,26 @@ const Hero = () => {
             </p>
 
             {/* Key Highlights */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mt-8">
               <div className="card-glass p-6 rounded-xl">
                 <div className="text-3xl font-bold gradient-text">3+</div>
-                <div className="text-sm text-muted-foreground">Years Experience</div>
+                <div className="text-sm text-muted-foreground">Years of Experience</div>
               </div>
               <div className="card-glass p-6 rounded-xl">
-                <div className="text-3xl font-bold gradient-text">95%</div>
-                <div className="text-sm text-muted-foreground">Model Accuracy</div>
+                <div className="text-3xl font-bold gradient-text">28%</div>
+                <div className="text-sm text-muted-foreground">Improved Predictive Model Accuracy</div>
+              </div>
+              <div className="card-glass p-6 rounded-xl">
+                <div className="text-3xl font-bold gradient-text">10+</div>
+                <div className="text-sm text-muted-foreground">End-to-End Data Science Projects Delivered</div>
+              </div>
+              <div className="card-glass p-6 rounded-xl">
+                <div className="text-3xl font-bold gradient-text">4</div>
+                <div className="text-sm text-muted-foreground">Cloud Platforms Leveraged (Azure, AWS, LangChain, Hugging Face)</div>
               </div>
               <div className="card-glass p-6 rounded-xl">
                 <div className="text-3xl font-bold gradient-text">100+</div>
-                <div className="text-sm text-muted-foreground">Students Mentored</div>
+                <div className="text-sm text-muted-foreground">Interactive Dashboards & Visualizations Built</div>
               </div>
             </div>
 
