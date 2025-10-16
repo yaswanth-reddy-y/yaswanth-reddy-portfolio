@@ -86,15 +86,6 @@ const Hero = () => {
                 <ArrowDown className="ml-2 h-4 w-4" />
               </Button>
               <Button 
-                variant="glass" 
-                size="lg"
-                onClick={() => scrollToSection("#contact")}
-                className="px-8"
-              >
-                <Mail className="mr-2 h-4 w-4" />
-                Get In Touch
-              </Button>
-              <Button 
                 variant="outline" 
                 size="lg"
                 onClick={() => window.open("https://1drv.ms/b/c/81c6291fdf7cccf8/EZM-ZH538mhHj7onhHEGy4UB5-QQwftUNQk18T9CfqNA2Q?e=G3j3LY", "_blank")}
@@ -120,6 +111,15 @@ const Hero = () => {
               >
                 <Linkedin className="mr-2 h-4 w-4" />
                 LinkedIn
+              </Button>
+              <Button 
+                variant="glass" 
+                size="lg"
+                onClick={() => scrollToSection("#contact")}
+                className="px-8"
+              >
+                <Mail className="mr-2 h-4 w-4" />
+                Get In Touch
               </Button>
             </div>
           </div>
