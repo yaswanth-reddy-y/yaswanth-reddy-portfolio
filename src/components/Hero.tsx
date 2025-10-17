@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowDown, Download, Mail, Github, Linkedin } from "lucide-react";
-import profileImage from "/lovable-uploads/profile-new.png";
+import profileImage from "@/assets/profile-picture.jpg";
 
 const Hero = () => {
   const scrollToSection = (href: string) => {
@@ -23,9 +23,9 @@ const Hero = () => {
               </div>
               
               {/* Main profile image */}
-              <div className="relative w-48 h-48 md:w-56 md:h-56 mx-auto rounded-full overflow-hidden border-4 border-background shadow-2xl group-hover:shadow-glow transition-all duration-300">
+              <div className="relative w-32 h-32 md:w-40 md:h-40 mx-auto rounded-full overflow-hidden border-4 border-background shadow-2xl group-hover:shadow-glow transition-all duration-300">
                 <img
-                  src={`${profileImage}?t=${Date.now()}`}
+                  src={profileImage}
                   alt="Yaswanth Reddy Yarrabandla - Data Scientist & ML Engineer"
                   className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-300"
                 />
