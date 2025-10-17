@@ -11,7 +11,7 @@ const About = () => {
               About <span className="gradient-text">Me</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Passionate about leveraging data science to solve real-world problems and drive business value
+              Data fuels decisions, and I turn those decisions into measurable success.
             </p>
           </div>
 
@@ -22,19 +22,17 @@ const About = () => {
                 <h3 className="text-2xl font-semibold mb-4 text-accent">My Journey</h3>
                 <div className="space-y-4 text-muted-foreground">
                   <p>
-                    I'm a dedicated Data Scientist with 3+ years of hands-on experience transforming 
-                    complex datasets into actionable business insights. My expertise spans across 
-                    predictive analytics, statistical modeling, and cloud-based machine learning solutions.
+                    I'm a results-driven Data Scientist with 3+ years of experience applying machine learning, 
+                    predictive modeling, and data visualization to uncover insights and drive business impact. 
+                    I've built and deployed end-to-end ML pipelines — from raw data preprocessing to model 
+                    deployment and performance monitoring — delivering scalable, production-ready solutions.
                   </p>
                   <p>
-                    Having worked in diverse domains including financial services, healthcare, and 
-                    operational analytics, I bring a unique perspective to data challenges. I specialize 
-                    in developing end-to-end ML pipelines, from data preprocessing to model deployment 
-                    and monitoring.
-                  </p>
-                  <p>
-                    My approach combines technical expertise with business acumen, ensuring that 
-                    data-driven solutions align with organizational goals and drive measurable impact.
+                    Having worked across financial services, healthcare, and education, I've developed a deep 
+                    understanding of domain-specific challenges and how to translate analytical outputs into 
+                    real-world outcomes. My experience includes developing predictive analytics systems, risk 
+                    models, and business intelligence dashboards that empower leaders to make confident, 
+                    data-backed decisions.
                   </p>
                 </div>
               </div>
@@ -51,7 +49,7 @@ const About = () => {
                     <p className="text-accent">DePaul University</p>
                     <p className="text-sm text-muted-foreground">Jan 2023 – Nov 2024 | GPA: 3.83</p>
                     <p className="text-sm text-muted-foreground mt-2">
-                      Focus on advanced machine learning, statistical analysis, and big data technologies
+                      Focused on advanced machine learning, statistical modeling, and cloud-based data solutions.
                     </p>
                   </div>
                 </div>
@@ -69,22 +67,22 @@ const About = () => {
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Data-Driven Decision Making</h4>
-                      <p className="text-sm">Every recommendation is backed by rigorous analysis and statistical validation</p>
+                      <h4 className="font-semibold text-foreground">Data-Driven Impact</h4>
+                      <p className="text-sm">Every model, visualization, and insight I deliver ties directly to measurable business value.</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Collaborative Innovation</h4>
-                      <p className="text-sm">Working closely with cross-functional teams to ensure technical solutions meet business needs</p>
+                      <h4 className="font-semibold text-foreground">Collaborative Problem Solving</h4>
+                      <p className="text-sm">I thrive in cross-functional environments, ensuring technical outcomes align with business goals.</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-3">
                     <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                     <div>
-                      <h4 className="font-semibold text-foreground">Continuous Learning</h4>
-                      <p className="text-sm">Staying current with emerging technologies and methodologies in the rapidly evolving field</p>
+                      <h4 className="font-semibold text-foreground">Continuous Innovation</h4>
+                      <p className="text-sm">I stay ahead of the curve by experimenting with new tools and frameworks in AI and MLOps.</p>
                     </div>
                   </div>
                 </div>
@@ -96,9 +94,9 @@ const About = () => {
                   <h3 className="text-2xl font-semibold text-accent">Collaboration Style</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  I excel in agile environments, leveraging tools like Git, JIRA, and collaborative 
-                  platforms to ensure seamless project delivery. My experience mentoring 75+ students 
-                  has strengthened my ability to communicate complex technical concepts to diverse audiences.
+                  I work best in agile, data-centric teams, leveraging Git, JIRA, and cloud collaboration 
+                  tools to streamline workflows. Having mentored over 75 aspiring data professionals, I bring 
+                  strong communication skills that bridge technical and non-technical audiences effortlessly.
                 </p>
               </div>
 
@@ -108,9 +106,8 @@ const About = () => {
                   <h3 className="text-2xl font-semibold text-accent">What Drives Me</h3>
                 </div>
                 <p className="text-muted-foreground">
-                  The intersection of technology and human impact. I'm passionate about using data science 
-                  to solve meaningful problems, whether it's improving healthcare outcomes, detecting fraud, 
-                  or optimizing business operations for better customer experiences.
+                  Using data science to create meaningful impact — from improving education equity to 
+                  enhancing business efficiency. My goal is to make data not just informative, but transformative.
                 </p>
               </div>
             </div>
