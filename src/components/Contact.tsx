@@ -29,18 +29,19 @@ const Contact = () => {
     setIsSubmitting(true);
 
     try {
-      await emailjs.send(
-        'service_fuqddys',
-        'template_po72xnw',
-        {
-          name: formData.name,
-          email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-          to_name: 'Yaswanth',
-        },
-        'EH8qSo4ouEESZuDQI'
-      );
+        await emailjs.send(
+          'service_fuqddys',
+          'template_po72xnw',
+          {
+            name: formData.name,
+            email: formData.email,
+            subject: formData.subject,
+            message: formData.message,
+            to_email: 'yaswanthreddyat56@gmail.com',
+            to_name: 'Yaswanth',
+          },
+          'EH8qSo4ouEESZuDQI'
+        );
 
       toast({
         title: "Message sent successfully!",
