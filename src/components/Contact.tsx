@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { Mail, Phone, Github, MapPin, Send } from "lucide-react";
+import { Mail, Phone, Linkedin, MapPin, Send } from "lucide-react";
 import { useState } from "react";
 import emailjs from '@emailjs/browser';
 
@@ -64,7 +64,7 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "yaswanthreddyat56@gmail.com",
+      value: "yaswanthreddyat56@gmail.com / yyarrabandla@gmail.com",
       href: "mailto:yaswanthreddyat56@gmail.com"
     },
     {
@@ -74,10 +74,10 @@ const Contact = () => {
       href: "tel:872-242-8299"
     },
     {
-      icon: Github,
-      label: "GitHub",
-      value: "yaswanth-reddy-y",
-      href: "https://github.com/yaswanth-reddy-y/yaswanth-reddy"
+      icon: Linkedin,
+      label: "LinkedIn",
+      value: "yaswanth-reddy-yarrabandla",
+      href: "https://www.linkedin.com/in/yaswanth-reddy-yarrabandla/"
     }
   ];
 
