@@ -35,9 +35,9 @@ const Experience = () => {
     },
     {
       title: "Data Science Engineer",
-      company: "Hexaware Techno",
+      company: "Hexaware Technologies",
       period: "Dec 2020 – Nov 2022",
-      location: "USA",
+      location: "Hyderabad",
       description: "Built scalable user analytics and recommendation systems on AWS, delivering personalized experiences and actionable insights for business growth.",
       achievements: [
         "Engineered user analytics and recommendation platform enhancing user engagement by 32%",
